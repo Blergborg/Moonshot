@@ -9,9 +9,10 @@ import Foundation
 
 // We want to make decoding our JOSN data simpler,
 // extend Bundle and ask it to decode a specific file.
-
+// By using generics, we can
 extension Bundle {
-    func decode(_ file: String) -> [String: Astronaut] {
+    // NOTE: we can require the generic type to conform to Codable protocol so decoder.decode() works properly.
+    func decode<T: Codable>(_ file: String) -> T {
         guard let url = self.url(forResource: file, withExtension: nil) else {
             fatalError("Failed to locaate \(file) in bundle.")
         }
@@ -22,7 +23,7 @@ extension Bundle {
         
         let decoder = JSONDecoder()
         
-        guard let loaded = try? decoder.decode([String: Astronaut].self, from: data) else {
+        guard let loaded = try? decoder.decode(T.self, from: data) else {
             fatalError("Failed to decode \(file) from bundle.")
         }
         
