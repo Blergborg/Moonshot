@@ -18,6 +18,7 @@
 		26281D662AB2311E00624076 /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26281D652AB2311E00624076 /* Bundle-Decodable.swift */; };
 		26281D682AB24B6900624076 /* Color-Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26281D672AB24B6900624076 /* Color-Theme.swift */; };
 		26281D6A2AB25E1E00624076 /* MissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26281D692AB25E1E00624076 /* MissionView.swift */; };
+		26281D6C2AB269AC00624076 /* AstronautView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26281D6B2AB269AC00624076 /* AstronautView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		26281D652AB2311E00624076 /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
 		26281D672AB24B6900624076 /* Color-Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color-Theme.swift"; sourceTree = "<group>"; };
 		26281D692AB25E1E00624076 /* MissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionView.swift; sourceTree = "<group>"; };
+		26281D6B2AB269AC00624076 /* AstronautView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 				26281D4B2AB166B700624076 /* Preview Content */,
 				26281D672AB24B6900624076 /* Color-Theme.swift */,
 				26281D692AB25E1E00624076 /* MissionView.swift */,
+				26281D6B2AB269AC00624076 /* AstronautView.swift */,
 			);
 			path = Moonshot;
 			sourceTree = "<group>";
@@ -162,6 +165,7 @@
 			files = (
 				26281D6A2AB25E1E00624076 /* MissionView.swift in Sources */,
 				26281D5E2AB22DE200624076 /* Astronaut.swift in Sources */,
+				26281D6C2AB269AC00624076 /* AstronautView.swift in Sources */,
 				26281D682AB24B6900624076 /* Color-Theme.swift in Sources */,
 				26281D482AB166B600624076 /* ContentView.swift in Sources */,
 				26281D662AB2311E00624076 /* Bundle-Decodable.swift in Sources */,
