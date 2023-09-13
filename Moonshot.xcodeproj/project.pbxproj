@@ -14,6 +14,7 @@
 		26281D542AB2066300624076 /* GeometryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26281D532AB2066300624076 /* GeometryView.swift */; };
 		26281D582AB20E2D00624076 /* ScrollExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26281D572AB20E2D00624076 /* ScrollExampleView.swift */; };
 		26281D5A2AB222DF00624076 /* HirearchicalCodableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26281D592AB222DF00624076 /* HirearchicalCodableView.swift */; };
+		26281D5C2AB2240700624076 /* ScrollingGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26281D5B2AB2240700624076 /* ScrollingGridView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		26281D532AB2066300624076 /* GeometryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryView.swift; sourceTree = "<group>"; };
 		26281D572AB20E2D00624076 /* ScrollExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollExampleView.swift; sourceTree = "<group>"; };
 		26281D592AB222DF00624076 /* HirearchicalCodableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HirearchicalCodableView.swift; sourceTree = "<group>"; };
+		26281D5B2AB2240700624076 /* ScrollingGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollingGridView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				26281D532AB2066300624076 /* GeometryView.swift */,
 				26281D572AB20E2D00624076 /* ScrollExampleView.swift */,
 				26281D592AB222DF00624076 /* HirearchicalCodableView.swift */,
+				26281D5B2AB2240700624076 /* ScrollingGridView.swift */,
 			);
 			path = Moonshot;
 			sourceTree = "<group>";
@@ -150,6 +153,7 @@
 				26281D582AB20E2D00624076 /* ScrollExampleView.swift in Sources */,
 				26281D542AB2066300624076 /* GeometryView.swift in Sources */,
 				26281D482AB166B600624076 /* ContentView.swift in Sources */,
+				26281D5C2AB2240700624076 /* ScrollingGridView.swift in Sources */,
 				26281D462AB166B600624076 /* MoonshotApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
