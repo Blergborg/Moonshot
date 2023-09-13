@@ -12,6 +12,7 @@
 		26281D4A2AB166B700624076 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26281D492AB166B700624076 /* Assets.xcassets */; };
 		26281D4D2AB166B700624076 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26281D4C2AB166B700624076 /* Preview Assets.xcassets */; };
 		26281D542AB2066300624076 /* GeometryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26281D532AB2066300624076 /* GeometryView.swift */; };
+		26281D582AB20E2D00624076 /* ScrollExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26281D572AB20E2D00624076 /* ScrollExampleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		26281D492AB166B700624076 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		26281D4C2AB166B700624076 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		26281D532AB2066300624076 /* GeometryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryView.swift; sourceTree = "<group>"; };
+		26281D572AB20E2D00624076 /* ScrollExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollExampleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				26281D492AB166B700624076 /* Assets.xcassets */,
 				26281D4B2AB166B700624076 /* Preview Content */,
 				26281D532AB2066300624076 /* GeometryView.swift */,
+				26281D572AB20E2D00624076 /* ScrollExampleView.swift */,
 			);
 			path = Moonshot;
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26281D582AB20E2D00624076 /* ScrollExampleView.swift in Sources */,
 				26281D542AB2066300624076 /* GeometryView.swift in Sources */,
 				26281D482AB166B600624076 /* ContentView.swift in Sources */,
 				26281D462AB166B600624076 /* MoonshotApp.swift in Sources */,
